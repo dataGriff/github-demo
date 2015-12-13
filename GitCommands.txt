@@ -1,30 +1,52 @@
-pwd --Gets current directory
+pwd ##Gets current directory
 
-cd projects --Changes directory to projects
+mkdir projects ##creates projects directory 
 
-cd .. --Goes up on directory 
+cd projects ##Changes directory to projects
 
-unzip FileLocation/Filename.FileExtension --Unzips file 
+git version ##gives you version of git and confirms installed
 
-ls --lists items in current directory
+git config --global user.name "Richard Griffiths" ##sets user name
+git config --global user.name "griff182uk@yahoo.co.uk" ##sets e-mail
+git config --global ##list returns user name and e-mail above
 
-mv CurrentName NewName --changes name of file/folder
+cd .. ##Goes up on directory 
 
-git init --Initialises git in current directory
+unzip FileLocation/Filename.FileExtension ##Unzips file 
 
-ls -al --lists itemts in current directory with details 
+ls ##lists items in current directory
 
-git status --gives status of git files
+mv CurrentName NewName ##changes name of file/folder
 
-git add . --tracks all files in directory
+git init ##Initialises git in current directory
 
-git add FileName --tracks filename
+ls -al ##lists all items in current directory with details (shows .git folder)
 
-git commit - m "Message for commit" -- Commits directory to git with message
+git status ##gives status of git files
 
-rm -rf FileName --Remove filename
+git add . ##tracks all files in directory
 
-git push origin master --Pushes changes up to GitHub (after enter username and password when prompted)
+git add FileName ##tracks filename
+
+git commit - m "Message for commit" ## Commits directory to git with message
+
+rm -rf FileName ##Remove filename
+
+git push origin master ##Pushes changes up to GitHub (after enter username and password when prompted)
+
+##to clone from a github repository, go to git hub and copy HTTPS of the repository then in git bash...
+git clone [Paste the HTTPS here] ##it will make a directory in our current directory
+
+git config ##global core.editor notepad ##changes default text editor to notepad
+
+git init ProjectName ##initialise project name locally
+
+cd .git ##goes into git folder when in project, do ls command here and can see componenents
+
+notepad FileName.txt ##Initliases text file in project, cand edit and save when opens
+
+
+
 
 
 
