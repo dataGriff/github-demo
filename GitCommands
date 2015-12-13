@@ -1,0 +1,28 @@
+pwd --Gets current directory
+
+cd projects --Changes directory to projects
+
+cd .. --Goes up on directory 
+
+unzip FileLocation/Filename.FileExtension --Unzips file 
+
+ls --lists items in current directory
+
+mv CurrentName NewName --changes name of file/folder
+
+git init --Initialises git in current directory
+
+ls -al --lists itemts in current directory with details 
+
+git status --gives status of git files
+
+git add . --tracks all files in directory
+
+git add FileName --tracks filename
+
+git commit - m "Message for commit" -- Commits directory to git with message
+
+rm -rf FileName --Remove filename
+
+
+
