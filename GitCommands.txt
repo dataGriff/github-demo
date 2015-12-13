@@ -24,5 +24,7 @@ git commit - m "Message for commit" -- Commits directory to git with message
 
 rm -rf FileName --Remove filename
 
+git push origin master --Pushes changes up to GitHub (after enter username and password when prompted)
+
 
 
