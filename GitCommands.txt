@@ -53,6 +53,10 @@ cd .git ##goes into git folder when in project, do ls command here and can see c
 
 notepad FileName.txt ##Initliases text file in project, cand edit and save when opens
 
+git commit -a ##makes git work like file based
+
+git commit - v ##records details of what you actually changed in the commit 
+
 
 
 
