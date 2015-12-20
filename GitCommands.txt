@@ -1,3 +1,5 @@
+q ##seems to get me back to last thing - useful for "resetting"
+
 pwd ##Gets current directory
 
 mkdir projects ##creates projects directory 
@@ -56,6 +58,13 @@ notepad FileName.txt ##Initliases text file in project, cand edit and save when 
 git commit -a ##makes git work like file based
 
 git commit - v ##records details of what you actually changed in the commit 
+
+git log ##log of what done
+
+git log --stat ##some stats on lines changed, insertions, deletions etc 
+
+git log -p
+
 
 
 
