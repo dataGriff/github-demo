@@ -22,6 +22,8 @@ unzip FileLocation/Filename.FileExtension ##Unzips file
 
 ls ##lists items in current directory
 
+git ls-files ##sees files in repostiory
+
 mv CurrentName NewName ##changes name of file/folder
 
 git init ##Initialises git in current directory
