@@ -9,6 +9,12 @@ git version ##gives you version of git and confirms installed
 git config --global user.name "Richard Griffiths" ##sets user name
 git config --global user.name "griff182uk@yahoo.co.uk" ##sets e-mail
 git config --global ##list returns user name and e-mail above
+cat.gitconfig ##sort of do does same as abive
+
+git config --global alias.co checkout ##sets checkout alias, can use co then instead of checkout
+git config --global aplply.whitespace nowarn ##ignores differences in whitespace
+cat ~bin/ali ##gets aliases directories
+cat ~bin/aliases.tcsh ##e.g. gets aliases (see download file from intro to Git for examples)
 
 cd .. ##Goes up on directory 
 
@@ -24,7 +30,7 @@ ls -al ##lists all items in current directory with details (shows .git folder)
 
 git status ##gives status of git files
 
-git add . ##tracks all files in directory
+git add . ##tracks all files in directory (except for those in .gitignore or exclude)
 
 git add FileName ##tracks filename
 
