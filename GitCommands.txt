@@ -38,6 +38,7 @@ git add . ##tracks all files in directory (except for those in .gitignore or exc
 
 git add FileName ##tracks filename
 
+##need to add before commit
 git commit - m "Message for commit" ## Commits directory to git with message
 
 rm -rf FileName ##Remove filename

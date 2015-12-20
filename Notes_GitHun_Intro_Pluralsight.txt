@@ -1,0 +1,12 @@
+Introduction to Git (Pluralsight)
+
+Distributed - push it to other areas (if want to)
+Branching - try it out in a branch and merge back into master branch...
+Clean - one .git directory
+
+You can create a .gitignore file 
+This gets distributed too 
+
+git works with content, not files
+
+need to add files before commit
