@@ -169,3 +169,5 @@ git checkout testbranch ##checks out and changes to testbranch
 git merge BranchName ##merges branches
 
 git rebase master ##applies master to current branch
+
+git reset --hard ORIG_HEAD ##changes back to original after a merge
