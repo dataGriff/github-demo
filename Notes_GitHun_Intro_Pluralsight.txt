@@ -10,3 +10,5 @@ This gets distributed too
 git works with content, not files
 
 need to add files before commit
+
+why branch? --keep main branch intact
