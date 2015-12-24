@@ -78,7 +78,9 @@ git checkout testbranch ##checks out and changes to testbranch
 
 ##Note - when have whatever branch checked out, can onlysee the 
 ##files etc from that branch, including those in the file directory
-
+##make sure know which branch working on!
+##you can see the branches in gitk GUI
+##you need to commit before changing branches or error
 
 
 
