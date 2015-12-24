@@ -76,6 +76,9 @@ git branch BranchName ##creates branch of BranchName
 
 git checkout testbranch ##checks out and changes to testbranch
 
+##Note - when have whatever branch checked out, can onlysee the 
+##files etc from that branch, including those in the file directory
+
 
 
 
