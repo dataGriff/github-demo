@@ -163,3 +163,9 @@ git checkout testbranch ##checks out and changes to testbranch
 
 ##make sure know which branch working on!
 ##you can see the branches in gitk GUI
+
+##may need to resolve own conflicts
+
+git merge BranchName ##merges branches
+
+git rebase master ##applies master to current branch
