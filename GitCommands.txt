@@ -66,6 +66,15 @@ git log --stat ##some stats on lines changed, insertions, deletions etc
 
 git log -p
 
+gitk --all ##launches gui
+
+git branch ##gets current branch (coloured) and others
+
+git branch --color ##shows color of curent brancg
+
+git branch BranchName ##creates branch of BranchName
+
+git checkout testbranch ##checks out and changes to testbranch
 
 
 
